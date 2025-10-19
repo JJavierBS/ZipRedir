@@ -1,3 +1,4 @@
+#Only usefull on local development
 version: '3.8'
 
 services: 
