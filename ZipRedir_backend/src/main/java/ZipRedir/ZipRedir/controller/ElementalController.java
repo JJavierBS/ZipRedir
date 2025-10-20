@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 public class ElementalController {
 
-    private final String BASE_URL = "http://localhost:8080/";
+    private final String BASE_URL = "https://zipredir.onrender.com/";
 
     @Autowired
     private ElementalService elementalService;
