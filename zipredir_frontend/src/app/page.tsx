@@ -4,7 +4,7 @@ import {useState} from "react";
 export default function Home() {
   const [url,setUrl] = useState(""); //Variable para guardar la url original y la función que la actualiza
   const [shortUrl, setShortUrl] = useState(""); //Variable para guardar la url acortada y la función que la actualiza
-  const API_URL = "http://localhost:8080/api/shorten"; //URL de la API de acortamiento de URLs
+  const API_URL = "https://zipredir.onrender.com/api/shorten"; //URL de la API de acortamiento de URLs
 
   const handleShorten = async () => { //Funcion que llama al backend
     const res = await fetch(API_URL,
